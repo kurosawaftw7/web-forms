@@ -2,15 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Lesson Eight: HTML Grid Activity</title>
-    <link rel="stylesheet" type="text/css" href="Lesson08-2-2-HTML-custom-grids.css">
+    <title>Web Forms</title>
   </head>
   <body>
-  <form name="underwater" action="/action.php" method="GET">
-    <label>What's your favorite sea creature?
-      <input type="text" name="favorite">
+    <h1>Pet Adoption Application</h1>
+    <form method="GET">
+    <label>Your Name:
+      <input type="text" name="applicantName">
     </label>
-    <input type="submit">
+    
+    <label>Your email:
+      <input type="email" name="ApplicantEmail">
+    </label>
+
+    <label for="city">What city are you in?</label>
+      <input id="city" type="text" name="ApplicantCity">
+
+    <label>How many pets are in your home?
+      <input type="number" name="petCount">
+    </label>
+
+    <label>To create an account, enter a password
+      <input type="password" name="accountPW">
+    </label>
+
+    <input type="submit" value="Apply Now!">
     </form>
 </form>
 </body>
