@@ -28,16 +28,36 @@
     </label>
 
     <fieldset>
+      <legend>What types of pet are you interested in?</legend>
       <label>Dogs
-        <input type="checkbox" name="type" value="dogs">
+        <input type="checkbox" name="species" value="dogs">
       </label>
       <label>Cats
-        <input type="checkbox" name="type" value="cats">
+        <input type="checkbox" name="species" value="cats">
       </label>
       <label>Gerbils
-        <input type="checkbox" name="type" value="gerbils">
+        <input type="checkbox" name="species" value="gerbils">
       </label>
     </fieldset>
+
+    <fieldset>
+      <legend>Do you want a pet with special needs?</legend>
+      <label>Yes
+        <input type="radio" name="specialneeds" value="yes">
+      </label>
+      <label>No
+        <input type="radio" name="specialneeds" value="no">
+      </label>
+    </fieldset>
+
+    <label>How many hours will someone be home to keep the pets company?
+      <select name="hours">
+        <option value="">Please select</option>
+        <option value="few">less than 5</option>
+        <option value="some">5-10</option>
+        <option value="many">more than 10</option>
+      </select>
+    </label>
 
     <label>To create an account, enter a password
       <input type="password" name="accountPW">
