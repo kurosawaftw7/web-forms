@@ -19,3 +19,11 @@ input[type=password]:focus {
 input {
     border-radius: 15px;
 }
+
+fieldset {
+    border: none;
+}
+
+fieldset input {
+    display: inline;
+}
